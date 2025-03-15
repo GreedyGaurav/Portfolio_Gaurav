@@ -76,7 +76,7 @@ const Home = () => {
           transition={{ delay: 0.8 }}
         >
           <motion.a
-            href="/projects"
+            href="#/projects"
             className="px-8 py-4 bg-purple-600 rounded-full font-semibold text-lg sm:text-xl hover:bg-purple-700 transition-all duration-300 shadow-lg hover:shadow-purple-500/50"
             whileHover={{
               scale: 1.05,
