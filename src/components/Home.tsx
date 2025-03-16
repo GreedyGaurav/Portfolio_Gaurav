@@ -7,6 +7,15 @@ const Home = () => {
     { icon: FaLinkedin, link: "https://linkedin.com/in/greedygaurav" },
     { icon: FaTwitter, link: "https://twitter.com/greadygaurav" },
   ];
+
+  // Smooth Scroll Function (Fixes Deployment Issue)
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="min-h-screen pt-16 sm:pt-24 flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8">
       <motion.div
@@ -24,7 +33,6 @@ const Home = () => {
             alt="Profile"
             className="rounded-full w-full h-full object-cover border-4 border-purple-500 shadow-lg"
           />
-          <div className="absolute inset-0 rounded-full " />
         </motion.div>
 
         <motion.h1
@@ -75,8 +83,9 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          <motion.a
-            href="#/projects"
+          {/* Fixed Button Scroll Issue */}
+          <motion.button
+            onClick={() => scrollToSection("projects")}
             className="px-8 py-4 bg-purple-600 rounded-full font-semibold text-lg sm:text-xl hover:bg-purple-700 transition-all duration-300 shadow-lg hover:shadow-purple-500/50"
             whileHover={{
               scale: 1.05,
@@ -85,7 +94,8 @@ const Home = () => {
             whileTap={{ scale: 0.95 }}
           >
             View My Work
-          </motion.a>
+          </motion.button>
+
           <motion.a
             href="/Gaurav_Resume.pdf"
             className="px-8 py-4 border-2 border-purple-600 rounded-full font-semibold text-lg sm:text-xl hover:bg-purple-600/20 transition-all duration-300"
