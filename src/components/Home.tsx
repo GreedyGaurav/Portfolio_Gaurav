@@ -97,7 +97,7 @@ const Home = () => {
           </motion.button>
 
           <motion.a
-            href="/Gaurav_Resume.pdf"
+            href="/Resume_Gaurav.pdf"
             className="px-8 py-4 border-2 border-purple-600 rounded-full font-semibold text-lg sm:text-xl hover:bg-purple-600/20 transition-all duration-300"
             whileHover={{ scale: 1.05, borderColor: "#A855F7" }}
             whileTap={{ scale: 0.95 }}
