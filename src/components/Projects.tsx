@@ -110,7 +110,7 @@ const Projects: React.FC = () => {
     {
       title: "India is Innovating",
       description:
-        "India Is Innovating is a tech fest platform enabling students to explore events seamlessly. With 30,000+ views, it offers a dynamic UI with smooth animations. Built with React, Tailwind, and GSAP for an interactive experience.",
+        "India Is Innovating is a tech fest platform enabling students to explore events seamlessly. With 30,000+ users, it offers a dynamic UI with smooth animations. Built with React, Tailwind, and GSAP for an interactive experience.",
       tech: ["React", "GSAP", "Tailwind"],
       image: "/Project2.jpg",
       github: "https://github.com/GreedyGaurav/Tech-Fest-Website-SGVU",

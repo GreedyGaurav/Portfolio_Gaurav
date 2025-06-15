@@ -6,7 +6,7 @@ const About = () => {
       category: "Frontend",
       items: [
         "React",
-        "JavaScript",
+        "JavaScript(ES6)",
         "Tailwind CSS",
         "HTML5/CSS3",
         "Shad CN/UI",
@@ -14,7 +14,14 @@ const About = () => {
     },
     {
       category: "Backend",
-      items: ["Firebase", "Supabase", "MongoDB", "MySQL"],
+      items: [
+        "NodeJs",
+        "ExpressJS",
+        "Firebase",
+        "Supabase",
+        "MongoDB",
+        "MySQL",
+      ],
     },
     {
       category: "Tools & Others",
@@ -28,14 +35,14 @@ const About = () => {
       company: "Unified Mentor",
       period: "May 2024 - June 2024",
       description:
-        "Developed frontend functionalities using HTML, CSS, and JavaScript while integrating Firebase for backend services, including authentication and database management. Created a project called TrainTrippers, which is mentioned in the portfolio. Actively participated in team meetings and contributed valuable insights to project discussions.",
+        "Developed frontend functionalities using HTML, CSS, and modern JavaScript (ES6) to enhance overall user experience. Built dynamic and reusable UI components with React.js, ensuring efficient and maintainable code architecture. Successfully implemented backend services using Node.js and integrated MongoDB for scalable and reliable data management. Seamlessly integrated Firebase to enable features such as user authentication and real-time database interactions.",
     },
     {
       title: "Web Developer Intern",
       company: "PHN Technology",
       period: "April 2023 - June 2023",
       description:
-        "Contributed to building user-friendly interfaces using React.js, HTML, CSS, and JavaScript while designing responsive and visually appealing layouts with Tailwind CSS. Collaborated with the team to enhance UI/UX design for an optimal user experience. Actively participated in team meetings, sharing insights to improve project workflows and frontend performance.",
+        "Engineered modern, component-based user interfaces with React.js, leveraging Tailwind CSS for consistent, utility-first styling. Integrated Supabase to efficiently handle authentication, database, and API functionalities in a scalable manner. Designed and optimized relational data structures using MySQL, ensuring efficient data retrieval and data integrity. Collaborated in agile development cycles with a strong focus on clean architecture, code reusability, and performance optimization.",
     },
   ];
 
@@ -59,9 +66,9 @@ const About = () => {
             <div className="prose prose-lg prose-invert">
               <p className="text-gray-300 text-lg sm:text-xl leading-relaxed">
                 Hello! I'm Gaurav Sharma, a passionate full-stack developer
-                skilled in HTML, CSS, JavaScript, Tailwind CSS, React,
-                Bootstrap, Clerk, Supabase, Firebase, MySQL, MongoDB, ShadCN UI,
-                Git, and GitHub.
+                skilled in ReactJS, NodeJS, ExpressJS, HTML, CSS,
+                JavaScript(ES6), Tailwind CSS, Bootstrap, Clerk, Supabase,
+                Firebase, MySQL, MongoDB, ShadCN UI, Git, and GitHub.
               </p>
               <p className="text-gray-300 text-lg sm:text-xl leading-relaxed mt-4">
                 I love crafting responsive, user-friendly web applications with
