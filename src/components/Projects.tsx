@@ -99,6 +99,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
+      title: "Recroot AI",
+      description:
+        "Developed a comprehensive AI-powered web application for generating and optimizing job descriptions using Google's Gemini AI technology.",
+      tech: ["Next.js", "Node.js", "MongoDB", "Express.js", "Gemini API"],
+      image: "/Project0.png",
+      github: "https://github.com/GreedyGaurav/RECROOT_AI",
+      live: "https://recroot-ai.vercel.app/",
+    },
+    {
       title: "Hiring Hub",
       description:
         "Hiring Hub simplifies job hunting and recruitment by connecting job seekers with employers. It streamlines applications, postings, and management, enhancing efficiency. Built with React, Clerk, Tailwind and Supabase for seamless performance.",
