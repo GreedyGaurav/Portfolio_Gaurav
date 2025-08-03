@@ -5,10 +5,11 @@ const About = () => {
     {
       category: "Frontend",
       items: [
-        "React",
+        "Next.js",
+        "React.js",
         "JavaScript(ES6)",
+        "TypeScript",
         "Tailwind CSS",
-        "HTML5/CSS3",
         "Shad CN/UI",
       ],
     },
@@ -17,10 +18,11 @@ const About = () => {
       items: [
         "NodeJs",
         "ExpressJS",
-        "Firebase",
-        "Supabase",
         "MongoDB",
         "MySQL",
+        "Firebase",
+        "Supabase",
+        
       ],
     },
     {
